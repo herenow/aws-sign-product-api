@@ -13,7 +13,7 @@ var generator = require("aws-prod-adv-signature")("YOUR ACCESS KEY", "YOUR SECRE
 
 var url = "http://webservices.amazon.com/onca/xml?Service=AWSECommerceService&Operation=ItemLookup&ItemId=0679722769&ResponseGroup=ItemAttributes,Offers,Images,Reviews";
 
-var object = aws.sign_url(url);
+var object = generator.sign_url(url);
 
 //object.url => signed url
 //object.signature => signature
