@@ -1,0 +1,26 @@
+{
+  "name": "AWS Signature for Product Advertising API",
+  "description": "This is a signature creator for the AWS Product Advertising REST API. Dont try to use this signature method for other AWS API's!!!",
+  "version": "0.1.0",
+  "author": {
+    "email": "leonardoshiro@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herenow/aws-sign-product-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/herenow/aws-sign-product-api/issues
+  },
+  "main": "main.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "keywords": [
+    "AWS",
+    "signature",
+    "product",
+    "Advertising",
+    "API"
+  ]
+}
