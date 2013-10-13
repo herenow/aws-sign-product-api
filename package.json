@@ -1,7 +1,7 @@
 {
   "name": "aws-prod-adv-signature",
   "description": "This is a signature creator for the AWS Product Advertising REST API. Dont try to use this signature method for other AWS API's!!!",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "email": "leonardoshiro@gmail.com"
   },
